@@ -1,0 +1,28 @@
+{
+  "data" : [
+    {
+      "credential_type" : "AWS",
+      "credential_name" : "aws_mt4010",
+      "dataplace_name" : "test_s3_mt4010",
+      "is_active" : true,
+      "is_sensitive" : false,
+      "connection_type" : "s3",
+      "description" : "",
+      "source_info" : {
+        "bucket" : "gratis-bucket-test",
+        "path" : "mt4010",
+        "ingestion_root_path" : "gratis-bcuket-test/mt4010",
+        "fetch_stats_type" : "directory",
+        "fetch_column_metadata" : {
+          "tsv" : true,
+          "csv" : true,
+          "num_of_rows_for_delimiter_files_scan" : 100000,
+          "parquet" : false,
+          "avro" : false
+        },
+        "region" : "us-east-2"
+      }
+    }
+  ],
+  "dataplace_tag_details" : []
+}
