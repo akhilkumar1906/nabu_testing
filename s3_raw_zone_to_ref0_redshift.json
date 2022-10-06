@@ -1,0 +1,1377 @@
+{
+  "CurationPipeline" : [
+    {
+      "pipelineJson" : {
+        "pipeline_version" : "v0.902",
+        "linkToPortIdProperty" : "endPortId",
+        "is_pipeline_validated" : true,
+        "is_active" : true,
+        "nodeKeyProperty" : "nodeId",
+        "refresh_freq" : {
+          "consider_timezone" : true,
+          "cron_freq" : "",
+          "cron_timezone" : "",
+          "cron_type" : ""
+        },
+        "linkToKeyProperty" : "toNodeId",
+        "source_records" : null,
+        "preview_records" : null,
+        "linkDataArray" : [
+          {
+            "endPortId" : 166184993681911,
+            "data" : {
+              "schema" : {
+                "type" : "struct",
+                "fields" : [
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "prod_pat_id",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "product_id",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_no",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_expire_date",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_substance_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_product_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_use_code",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "delist_flag",
+                    "type" : "integer"
+                  }
+                ]
+              },
+              "preview_data" : {}
+            },
+            "originPortId" : 166356743832804,
+            "toNodeId" : 166184993681810,
+            "linkType" : "schemalink",
+            "fromNodeId" : 166356743832702,
+            "link_id" : 166426719628906
+          },
+          {
+            "endPortId" : 166426771382803,
+            "data" : {
+              "schema" : {
+                "type" : "struct",
+                "fields" : [
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "prod_pat_id",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "product_id",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_no",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_expire_date",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_substance_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_product_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_use_code",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "delist_flag",
+                    "type" : "integer"
+                  }
+                ]
+              },
+              "preview_data" : {}
+            },
+            "originPortId" : 166184993681912,
+            "toNodeId" : 166426771382702,
+            "linkType" : "schemalink",
+            "fromNodeId" : 166184993681810,
+            "link_id" : 166426771963605
+          },
+          {
+            "endPortId" : 166356886175715,
+            "data" : {
+              "schema" : {
+                "type" : "struct",
+                "fields" : [
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "prod_pat_id",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "product_id",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_no",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_expire_date",
+                    "type" : "date"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_substance_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_product_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_use_code",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "delist_flag",
+                    "type" : "integer"
+                  }
+                ]
+              },
+              "preview_data" : {}
+            },
+            "originPortId" : 166426771382804,
+            "toNodeId" : 166356886175613,
+            "linkType" : "schemalink",
+            "fromNodeId" : 166426771382702,
+            "link_id" : 166426772092406
+          },
+          {
+            "endPortId" : 166427375384808,
+            "data" : {
+              "schema" : {
+                "type" : "struct",
+                "fields" : [
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "prod_pat_id",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "product_id",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_no",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_expire_date",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_substance_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "drug_product_flag",
+                    "type" : "integer"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "patent_use_code",
+                    "type" : "string"
+                  },
+                  {
+                    "metadata" : {},
+                    "nullable" : true,
+                    "name" : "delist_flag",
+                    "type" : "integer"
+                  }
+                ]
+              },
+              "preview_data" : {}
+            },
+            "originPortId" : 166356743832804,
+            "toNodeId" : 166427375384706,
+            "linkType" : "schemalink",
+            "fromNodeId" : 166356743832702,
+            "link_id" : 166427375877609
+          }
+        ],
+        "nodeDataArray" : [
+          {
+            "uiNodeOrder" : "1D",
+            "node_error_msg" : "",
+            "nodeVersion" : 1,
+            "nodeTypeId" : 4,
+            "nodeTypeUiConfig" : {
+              "acceptedPortProperties" : [
+                {
+                  "port_properties_id" : 1,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "blue",
+                    "fill" : "#3498db",
+                    "stroke" : "#3498db",
+                    "toLinkable" : true,
+                    "porttype_id" : 1,
+                    "fromLinkable" : false,
+                    "width" : 9,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Left",
+                    "height" : 9,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 1,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 0,
+                        "node_linktype_name" : "dottedlink",
+                        "inputMaxLinks" : 9999,
+                        "outputMaxLinks" : 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "port_properties_id" : 4,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : false,
+                    "porttype_id" : 2,
+                    "fromLinkable" : true,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Right",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 1,
+                        "inputMinLinks" : 0,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 0,
+                        "outputMaxLinks" : 9999
+                      }
+                    ]
+                  }
+                }
+              ],
+              "initialLabel" : "S3 Source",
+              "initialXPos" : 100,
+              "group_label" : "S",
+              "nodeGroupType" : "source",
+              "icon" : "s3.svg",
+              "groupLabel" : "Sources",
+              "node_properties_id" : 4,
+              "initialYPos" : 100,
+              "nodeGroupTypeId" : 2
+            },
+            "node_form_default_values" : {
+              "default_infer_schema" : false,
+              "default_records_to_infer_schema" : 1,
+              "default_header" : true
+            },
+            "node_execution" : "",
+            "node_metrics" : {
+              "records_count" : null,
+              "time_elapsed" : ""
+            },
+            "nodeTypeName" : "s3_source",
+            "outputLinks" : [
+              166426719628906,
+              166427375877609
+            ],
+            "is_node_validated" : true,
+            "configTypeId" : 210,
+            "inputLinks" : [],
+            "config" : {
+              "nodeName" : "S3 Raw Zone",
+              "credential_name" : "AWS_CREDENTIALS",
+              "connection_type" : "s3",
+              "columns_info" : [],
+              "source_file_url" : "s3a://gratis-bucket-test/product_patents.csv",
+              "description" : "",
+              "infer_schema" : true,
+              "connection_type_id" : 10,
+              "credential_type_id" : 2,
+              "read_options" : [],
+              "tags" : [],
+              "credential_type" : "AWS",
+              "file_type" : "csv",
+              "header" : true,
+              "records_for_infer_schema" : 100,
+              "region" : "us-east-2",
+              "credential_id" : 588
+            },
+            "nodeId" : 166356743832702,
+            "nodeLabel" : "S3",
+            "nodeUiConfig" : {
+              "yPos" : 60,
+              "ports_info" : [
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 1,
+                  "port_id" : 166356743832803,
+                  "port_location" : "Left"
+                },
+                {
+                  "data" : {
+                    "schema" : {
+                      "type" : "struct",
+                      "fields" : [
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "prod_pat_id",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "product_id",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_no",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_expire_date",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "drug_substance_flag",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "drug_product_flag",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_use_code",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "delist_flag",
+                          "type" : "integer"
+                        }
+                      ]
+                    },
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 4,
+                  "port_id" : 166356743832804,
+                  "port_location" : "Right"
+                }
+              ],
+              "xPos" : -460
+            },
+            "configTypeName" : "vue template s3 source config Curation UI"
+          },
+          {
+            "uiNodeOrder" : "4A",
+            "node_error_msg" : "",
+            "nodeVersion" : 1,
+            "nodeTypeId" : 20,
+            "nodeTypeUiConfig" : {
+              "acceptedPortProperties" : [
+                {
+                  "port_properties_id" : 8,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : true,
+                    "porttype_id" : 2,
+                    "fromLinkable" : false,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Left",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 1,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 1,
+                        "outputMaxLinks" : 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "port_properties_id" : 4,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : false,
+                    "porttype_id" : 2,
+                    "fromLinkable" : true,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Right",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 1,
+                        "inputMinLinks" : 0,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 0,
+                        "outputMaxLinks" : 9999
+                      }
+                    ]
+                  }
+                }
+              ],
+              "initialLabel" : "DQ Record",
+              "initialXPos" : 100,
+              "group_label" : "",
+              "nodeGroupType" : "data_quality",
+              "icon" : "dq_record.svg",
+              "groupLabel" : "Data Quality",
+              "node_properties_id" : 20,
+              "initialYPos" : 100,
+              "nodeGroupTypeId" : 5
+            },
+            "node_form_default_values" : {
+              "default_max_error_records" : 100
+            },
+            "node_execution" : "local",
+            "node_metrics" : {
+              "records_count" : null,
+              "time_elapsed" : ""
+            },
+            "nodeTypeName" : "dq_record",
+            "outputLinks" : [
+              166426771963605
+            ],
+            "is_node_validated" : true,
+            "configTypeId" : 205,
+            "inputLinks" : [
+              166426719628906
+            ],
+            "config" : {
+              "emails" : [
+                "venkata.kolapalli@modak.com",
+                "akhil.komati@modak.com"
+              ],
+              "nodeName" : "Data Quality Checks",
+              "error_records_config" : {
+                "credential_type" : "",
+                "credential_name" : "",
+                "connection_url" : "",
+                "connection_type" : "",
+                "connection_type_id" : null,
+                "region" : "",
+                "credential_type_id" : null,
+                "max_error_records" : 100,
+                "credential_id" : null
+              },
+              "description" : "",
+              "dq_rules" : [
+                {
+                  "dq_check_type" : "length",
+                  "dq_rule_type_id" : "1",
+                  "dq_rule_source_type" : "workspace_pipeline",
+                  "dq_validation_type" : "active",
+                  "dq_validation_type_id" : "1",
+                  "dq_rule_checks" : [
+                    {
+                      "column_name" : "drug_product_flag",
+                      "column_length" : 1
+                    }
+                  ],
+                  "dq_rule_name" : "length_check_cde_duplicate_duplicate_duplicate_duplicate",
+                  "description" : "",
+                  "dq_rule_source_type_id" : 2,
+                  "dq_rule_type" : "dq_record",
+                  "dq_check_type_id" : 3,
+                  "dq_rule_id" : 137
+                },
+                {
+                  "dq_rule_type_id" : "1",
+                  "dq_threshold" : 50,
+                  "dq_validation_type" : "passive",
+                  "description" : "",
+                  "dq_rule_type" : "dq_record",
+                  "dq_rule_id" : 138,
+                  "dq_check_type" : "range",
+                  "dq_rule_source_type" : "workspace_pipeline",
+                  "dq_validation_type_id" : "2",
+                  "dq_rule_checks" : [
+                    {
+                      "min" : "0",
+                      "max" : "1",
+                      "column_name" : "delist_flag"
+                    }
+                  ],
+                  "dq_rule_name" : "range_check_passive_cde_duplicate_duplicate_duplicate_duplicate",
+                  "dq_rule_source_type_id" : 2,
+                  "dq_check_type_id" : 7
+                },
+                {
+                  "dq_check_type" : "range",
+                  "dq_rule_type_id" : "1",
+                  "dq_rule_source_type" : "workspace_pipeline",
+                  "dq_validation_type" : "active",
+                  "dq_validation_type_id" : "1",
+                  "dq_rule_checks" : [
+                    {
+                      "min" : "0",
+                      "max" : "1",
+                      "column_name" : "drug_product_flag"
+                    }
+                  ],
+                  "dq_rule_name" : "range_check_cde_duplicate_duplicate_duplicate_duplicate",
+                  "description" : "",
+                  "dq_rule_source_type_id" : 2,
+                  "dq_rule_type" : "dq_record",
+                  "dq_check_type_id" : 7,
+                  "dq_rule_id" : 139
+                }
+              ],
+              "previous_node_name" : "S3 Raw Zone",
+              "tags" : []
+            },
+            "nodeId" : 166184993681810,
+            "nodeLabel" : "DQ Record",
+            "nodeUiConfig" : {
+              "yPos" : 60,
+              "ports_info" : [
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 8,
+                  "port_id" : 166184993681911,
+                  "port_location" : "Left"
+                },
+                {
+                  "data" : {
+                    "schema" : {
+                      "type" : "struct",
+                      "fields" : [
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "prod_pat_id",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "product_id",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_no",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_expire_date",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "drug_substance_flag",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "drug_product_flag",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_use_code",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "delist_flag",
+                          "type" : "integer"
+                        }
+                      ]
+                    },
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 4,
+                  "port_id" : 166184993681912,
+                  "port_location" : "Right"
+                }
+              ],
+              "xPos" : -230
+            },
+            "configTypeName" : "DQForm POC"
+          },
+          {
+            "uiNodeOrder" : "2A",
+            "node_error_msg" : "",
+            "nodeVersion" : 1,
+            "nodeTypeId" : 7,
+            "nodeTypeUiConfig" : {
+              "acceptedPortProperties" : [
+                {
+                  "port_properties_id" : 2,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "blue",
+                    "fill" : "#3498db",
+                    "stroke" : "#3498db",
+                    "toLinkable" : false,
+                    "porttype_id" : 1,
+                    "fromLinkable" : true,
+                    "width" : 9,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Right",
+                    "height" : 9,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 1,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 0,
+                        "node_linktype_name" : "dottedlink",
+                        "inputMaxLinks" : 0,
+                        "outputMaxLinks" : 9999
+                      }
+                    ]
+                  }
+                },
+                {
+                  "port_properties_id" : 3,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : true,
+                    "porttype_id" : 2,
+                    "fromLinkable" : false,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Left",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 1,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 1,
+                        "outputMaxLinks" : 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "initialLabel" : "JDBC Destination",
+              "initialXPos" : 100,
+              "group_label" : "T",
+              "nodeGroupType" : "destination",
+              "icon" : "jdbc.svg",
+              "groupLabel" : "Destinations",
+              "node_properties_id" : 7,
+              "initialYPos" : 100,
+              "nodeGroupTypeId" : 3
+            },
+            "node_form_default_values" : {
+              "default_batchsize" : 1000,
+              "default_query_timeout" : 0,
+              "default_mode" : "overwrite",
+              "default_truncate" : false
+            },
+            "node_execution" : "",
+            "node_metrics" : {
+              "records_count" : null,
+              "time_elapsed" : ""
+            },
+            "nodeTypeName" : "jdbc_destination",
+            "outputLinks" : [],
+            "is_node_validated" : true,
+            "configTypeId" : 194,
+            "inputLinks" : [
+              166427375877609
+            ],
+            "config" : {
+              "nodeName" : "Redshift Relational",
+              "queryTimeout" : 0,
+              "credential_name" : "redshift_creds",
+              "connection_type" : "redshift_relational",
+              "description" : "",
+              "connection_type_id" : 36,
+              "schema_name" : "",
+              "credential_type_id" : 1,
+              "jdbc_url" : "jdbc:redshift://nabuswat-redshift-cluster-1.cj3dic2hrmrh.us-east-2.redshift.amazonaws.com:5439/nabuswat",
+              "batchsize" : 1000,
+              "tags" : [],
+              "mode" : "overwrite",
+              "credential_type" : "Username with password",
+              "driver" : "com.amazon.redshift.jdbc42.Driver",
+              "truncate" : false,
+              "jdbc_write_options" : [],
+              "full_table_name" : "bmsdemo",
+              "credential_id" : 543
+            },
+            "nodeId" : 166427375384706,
+            "nodeLabel" : "JDBC",
+            "nodeUiConfig" : {
+              "yPos" : 200,
+              "ports_info" : [
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 2,
+                  "port_id" : 166427375384807,
+                  "port_location" : "Right"
+                },
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 3,
+                  "port_id" : 166427375384808,
+                  "port_location" : "Left"
+                }
+              ],
+              "xPos" : -220
+            },
+            "configTypeName" : "vue template jdbc destination config Curation UI"
+          },
+          {
+            "uiNodeOrder" : "3D",
+            "node_error_msg" : "",
+            "nodeVersion" : 1,
+            "nodeTypeId" : 17,
+            "nodeTypeUiConfig" : {
+              "acceptedPortProperties" : [
+                {
+                  "port_properties_id" : 4,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : false,
+                    "porttype_id" : 2,
+                    "fromLinkable" : true,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Right",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 1,
+                        "inputMinLinks" : 0,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 0,
+                        "outputMaxLinks" : 9999
+                      }
+                    ]
+                  }
+                },
+                {
+                  "port_properties_id" : 8,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : true,
+                    "porttype_id" : 2,
+                    "fromLinkable" : false,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Left",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 1,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 1,
+                        "outputMaxLinks" : 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "initialLabel" : "Transform",
+              "initialXPos" : 100,
+              "group_label" : "P",
+              "nodeGroupType" : "processor",
+              "icon" : "transform.svg",
+              "groupLabel" : "Processors",
+              "node_properties_id" : 17,
+              "initialYPos" : 100,
+              "nodeGroupTypeId" : 4
+            },
+            "node_form_default_values" : {},
+            "node_execution" : "",
+            "node_metrics" : {
+              "records_count" : null,
+              "time_elapsed" : ""
+            },
+            "nodeTypeName" : "transform",
+            "outputLinks" : [
+              166426772092406
+            ],
+            "is_node_validated" : true,
+            "configTypeId" : 193,
+            "inputLinks" : [
+              166426771963605
+            ],
+            "config" : {
+              "nodeName" : "Transformations",
+              "where_clause" : "",
+              "where_clause_flag" : false,
+              "where_clause_error_msg" : "",
+              "description" : "Casting a Column",
+              "transform_fields" : [
+                {
+                  "error_msg" : "",
+                  "input_field" : "prod_pat_id",
+                  "output_field_name" : "prod_pat_id",
+                  "output_field_type" : "integer"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "product_id",
+                  "output_field_name" : "product_id",
+                  "output_field_type" : "string"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "patent_no",
+                  "output_field_name" : "patent_no",
+                  "output_field_type" : "string"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "cast(patent_expire_date as date)",
+                  "output_field_name" : "patent_expire_date",
+                  "output_field_type" : "date"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "drug_substance_flag",
+                  "output_field_name" : "drug_substance_flag",
+                  "output_field_type" : "integer"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "drug_product_flag",
+                  "output_field_name" : "drug_product_flag",
+                  "output_field_type" : "integer"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "patent_use_code",
+                  "output_field_name" : "patent_use_code",
+                  "output_field_type" : "string"
+                },
+                {
+                  "error_msg" : "",
+                  "input_field" : "delist_flag",
+                  "output_field_name" : "delist_flag",
+                  "output_field_type" : "integer"
+                }
+              ],
+              "tags" : []
+            },
+            "nodeId" : 166426771382702,
+            "nodeLabel" : "Transform",
+            "nodeUiConfig" : {
+              "yPos" : 60,
+              "ports_info" : [
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 8,
+                  "port_id" : 166426771382803,
+                  "port_location" : "Left"
+                },
+                {
+                  "data" : {
+                    "schema" : {
+                      "type" : "struct",
+                      "fields" : [
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "prod_pat_id",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "product_id",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_no",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_expire_date",
+                          "type" : "date"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "drug_substance_flag",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "drug_product_flag",
+                          "type" : "integer"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "patent_use_code",
+                          "type" : "string"
+                        },
+                        {
+                          "metadata" : {},
+                          "nullable" : true,
+                          "name" : "delist_flag",
+                          "type" : "integer"
+                        }
+                      ]
+                    },
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 4,
+                  "port_id" : 166426771382804,
+                  "port_location" : "Right"
+                }
+              ],
+              "xPos" : -20
+            },
+            "configTypeName" : "vue template transform processor config Curation UI"
+          },
+          {
+            "uiNodeOrder" : "2D",
+            "node_error_msg" : "",
+            "nodeVersion" : 1,
+            "nodeTypeId" : 10,
+            "nodeTypeUiConfig" : {
+              "acceptedPortProperties" : [
+                {
+                  "port_properties_id" : 2,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "blue",
+                    "fill" : "#3498db",
+                    "stroke" : "#3498db",
+                    "toLinkable" : false,
+                    "porttype_id" : 1,
+                    "fromLinkable" : true,
+                    "width" : 9,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Right",
+                    "height" : 9,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 1,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 0,
+                        "node_linktype_name" : "dottedlink",
+                        "inputMaxLinks" : 0,
+                        "outputMaxLinks" : 9999
+                      }
+                    ]
+                  }
+                },
+                {
+                  "port_properties_id" : 3,
+                  "port_properties" : {
+                    "cursor" : "pointer",
+                    "porttype_name" : "white",
+                    "fill" : "white",
+                    "stroke" : "gray",
+                    "toLinkable" : true,
+                    "porttype_id" : 2,
+                    "fromLinkable" : false,
+                    "width" : 15,
+                    "alignment" : false,
+                    "alignment_properties" : {},
+                    "port_location" : "Left",
+                    "height" : 15,
+                    "acceptLinkTypes" : [
+                      {
+                        "node_linktype_id" : 2,
+                        "outputMinLinks" : 0,
+                        "inputMinLinks" : 1,
+                        "node_linktype_name" : "schemalink",
+                        "inputMaxLinks" : 1,
+                        "outputMaxLinks" : 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "initialLabel" : "S3 Destination",
+              "initialXPos" : 100,
+              "group_label" : "T",
+              "nodeGroupType" : "destination",
+              "icon" : "s3.svg",
+              "groupLabel" : "Destinations",
+              "node_properties_id" : 10,
+              "initialYPos" : 100,
+              "nodeGroupTypeId" : 3
+            },
+            "node_form_default_values" : {
+              "default_add_extension" : true,
+              "default_output_file_option_type" : "multiple",
+              "default_partition" : false,
+              "default_repartition" : true,
+              "default_include_header" : true,
+              "default_repartition_number" : 40,
+              "default_mode" : "overwrite"
+            },
+            "node_execution" : "",
+            "node_metrics" : {
+              "records_count" : null,
+              "time_elapsed" : ""
+            },
+            "nodeTypeName" : "s3_destination",
+            "outputLinks" : [],
+            "is_node_validated" : true,
+            "configTypeId" : 206,
+            "inputLinks" : [
+              166426772092406
+            ],
+            "config" : {
+              "nodeName" : "S3 Ref 0",
+              "destination_file_url" : "s3a://gratis-bucket-test/testingestion/[%current_year%]/[%current_month%]/[%current_day%]/records",
+              "partitionby" : false,
+              "credential_name" : "AWS_Creds",
+              "connection_type" : "s3",
+              "description" : "",
+              "connection_type_id" : 10,
+              "credential_type_id" : 2,
+              "tags" : [],
+              "repartition_size" : 40,
+              "mode" : "overwrite",
+              "write_options" : [],
+              "credential_type" : "AWS",
+              "output_file_option_type" : "single",
+              "file_type" : "csv",
+              "partitionby_column" : [],
+              "header" : true,
+              "region" : "us-east-2",
+              "add_extension" : true,
+              "repartition" : false,
+              "credential_id" : 181
+            },
+            "nodeId" : 166356886175613,
+            "nodeLabel" : "S3",
+            "nodeUiConfig" : {
+              "yPos" : 60,
+              "ports_info" : [
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 2,
+                  "port_id" : 166356886175714,
+                  "port_location" : "Right"
+                },
+                {
+                  "data" : {
+                    "schema" : {},
+                    "file_modified_ts" : ""
+                  },
+                  "port_properties_id" : 3,
+                  "port_id" : 166356886175715,
+                  "port_location" : "Left"
+                }
+              ],
+              "xPos" : 180
+            },
+            "configTypeName" : "vue template s3 destination config Curation UI"
+          }
+        ],
+        "last_validation_ts" : "2022-09-29 11:58:30.637",
+        "linkFromKeyProperty" : "fromNodeId",
+        "pipelineId" : 730,
+        "enable_cache" : false,
+        "pipeline_config" : {
+          "flow_details" : {
+            "post_conditions" : {
+              "rest_api_details" : [],
+              "enabled" : false
+            },
+            "spark_config" : {
+              "num_executors" : "5",
+              "executor_memory" : "30G",
+              "driver_memory" : "20G",
+              "solr_batch_size" : "10000",
+              "parallel_threads" : "5",
+              "fetch_size" : "1000",
+              "driver_cores" : "1",
+              "executor_cores" : "5"
+            },
+            "enable_spark_config" : false,
+            "pipeline_retry" : false,
+            "retry_count" : 3,
+            "extra_spark_config" : [
+              {
+                "property" : "cores",
+                "value" : "2"
+              },
+              {
+                "property" : "conf",
+                "value" : "true"
+              }
+            ],
+            "pipeline_flow_timeout" : 72,
+            "pre_conditions" : {
+              "pipeline_timeout" : 8,
+              "pipeline_details" : [],
+              "enabled" : false
+            },
+            "email_notification" : {
+              "on_failure" : [
+                "pranathi.dhara@modak.com"
+              ],
+              "failure_email_check" : true,
+              "on_success" : [
+                "venkata.kolapalli@modak.com",
+                "akhil.komati@modak.com"
+              ],
+              "same_as_success_email_check" : false,
+              "success_email_check" : true
+            }
+          },
+          "pipeline_alerts" : {
+            "duplicate_records" : {
+              "alert_config" : {
+                "default_threshold" : null,
+                "alert_validation_type" : null,
+                "alert_validation_type_id" : null
+              },
+              "alert_type_id" : "3",
+              "alert_label" : "Duplicate Records",
+              "enable_alert" : false,
+              "alert_type" : "duplicate_records"
+            },
+            "rate_of_data_change" : {
+              "alert_config" : {
+                "default_threshold" : 10,
+                "alert_validation_type" : "Passive",
+                "alert_validation_type_id" : "2"
+              },
+              "alert_type_id" : "4",
+              "alert_label" : "Rate of Data Change",
+              "enable_alert" : false,
+              "alert_type" : "rate_of_data_change"
+            },
+            "schema_drift" : {
+              "alert_config" : {
+                "default_threshold" : null,
+                "alert_validation_type" : null,
+                "alert_validation_type_id" : null
+              },
+              "alert_type_id" : "1",
+              "alert_label" : "Schema Drift",
+              "enable_alert" : false,
+              "alert_type" : "schema_drift"
+            },
+            "no_data_change" : {
+              "alert_config" : {
+                "default_threshold" : null,
+                "alert_validation_type" : null,
+                "alert_validation_type_id" : null
+              },
+              "alert_type_id" : "2",
+              "alert_label" : "No Data Change",
+              "enable_alert" : false,
+              "alert_type" : "no_data_change"
+            },
+            "row_count" : {
+              "alert_config" : {
+                "default_threshold" : 10,
+                "alert_validation_type" : "Passive",
+                "alert_validation_type_id" : "2"
+              },
+              "alert_type_id" : "5",
+              "alert_label" : "Row Count",
+              "enable_alert" : false,
+              "alert_type" : "row_count"
+            },
+            "execution_time" : {
+              "alert_config" : {
+                "default_threshold" : 10,
+                "alert_validation_type" : "Passive",
+                "alert_validation_type_id" : "2"
+              },
+              "alert_type_id" : "6",
+              "alert_label" : "Execution Time",
+              "enable_alert" : false,
+              "alert_type" : "execution_time"
+            }
+          },
+          "pipeline_error_msg" : "",
+          "description" : "",
+          "workflow_engine_name" : "rpc_workflow_engine",
+          "contact_info" : {
+            "owner" : "VK2508",
+            "email" : "venkata.kolapalli@modak.com"
+          },
+          "pipeline_form_default_values" : {
+            "default_pipeline_retry" : false,
+            "default_pipeline_flow_timeout" : 24,
+            "default_retry_count" : 0
+          },
+          "pipeline_name" : "S3 Raw Zone to S3 Ref 0 and Redshift",
+          "tags" : [],
+          "compute_engine_name" : "CDE Compute Engine",
+          "workspace_pipeline_type_id" : 1,
+          "engine_type" : "Spark",
+          "workflow_engine_id" : 5,
+          "engine_sub_type" : "CDE-Almaren",
+          "engine_id" : 2,
+          "engine_type_id" : 2,
+          "workspace_pipeline_type_name" : "batch",
+          "compute_engine_id" : 120,
+          "engine_sub_type_id" : 13
+        },
+        "linkFromPortIdProperty" : "originPortId",
+        "class" : "go.GraphLinksModel"
+      }
+    }
+  ]
+}
